@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="50px" viewBox="0 0 88 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>添加</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="88" height="50"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="88" height="50" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="内容编辑模块点击添加-视频-2" transform="translate(-356.000000, -677.000000)">
+            <g id="编辑控件" transform="translate(148.000000, 632.000000)">
+                <g id="添加" transform="translate(208.000000, 45.000000)">
+                    <use id="矩形-copy-34" stroke-opacity="0.5" stroke="#005ac2" mask="url(#mask-2)" fill="#fff" stroke-dasharray="2" transform="translate(44.000000, 25.000000) scale(1, -1) translate(-44.000000, -25.000000) " xlink:href="#path-1"></use>
+                    <path d="M44.8,25.2 L44.8,18.3196 C44.8,18.1432 44.6548,18 44.476,18 L43.5236,18 C43.342,18 43.2,18.1432 43.2,18.3196 L43.2,25.2 L36.3196,25.2 C36.1432,25.2 36,25.3448 36,25.524 L36,26.476 C36,26.658 36.1428,26.8 36.3196,26.8 L43.2,26.8 L43.2,33.6804 C43.2,33.8568 43.3448,34 43.5236,34 L44.476,34 C44.658,34 44.8,33.8568 44.8,33.6804 L44.8,26.8 L51.6804,26.8 C51.8568,26.8 52,26.6552 52,26.476 L52,25.524 C52,25.342 51.8568,25.2 51.6804,25.2 L44.8,25.2 Z" id="Fill-1" fill="#005ac2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

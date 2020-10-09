@@ -1,0 +1,143 @@
+@headColor: #fff;
+@headHeight: 5rem;
+
+.main {
+  width: 100%;
+
+  :global {
+    .ant-layout-header {
+      height: @headHeight;
+      line-height: @headHeight;
+      background: @headColor;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    }
+
+    .ant-layout-content {
+      height: calc(100vh - 70px - 5rem);
+      background: #f1f3fa;
+    }
+
+    .ant-breadcrumb {
+      height: @headHeight;
+      line-height: @headHeight;
+    }
+
+    .ant-menu {
+      color: #fff;
+      font-weight: 400;
+      font-size: 1rem;
+      background: #005dc0;
+    }
+
+    .ant-layout-sider,
+    .ant-menu-submenu > .ant-menu {
+      background: #005dc0;
+    }
+
+    .ant-menu-item-selected,
+    .ant-menu-submenu-selected {
+      color: #fff;
+    }
+
+    .ant-menu-item-selected {
+      background: #004c9d !important;
+    }
+
+    .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+    .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::after {
+      background: #fff;
+    }
+  }
+
+  .projectName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: @headHeight;
+    padding: 0 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: @headHeight;
+    text-align: center;
+    background: #005dc0;
+
+    & > div:first-child {
+      width: 4rem;
+      height: 1.75rem;
+      margin-top: 0.375rem;
+      background: url('../assets/image/boe.png') no-repeat center / 100% 100%;
+    }
+
+    & > div:last-child {
+      width: 14rem;
+      height: 2.5rem;
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.75rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  .content {
+    height: calc(100vh - 174px);
+    margin: 16px;
+    padding: 16px;
+    overflow-y: auto;
+    background: #fff;
+
+    .moduleTitle {
+      height: 48px;
+      padding: 0 32px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 48px;
+      background: @headColor;
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+    .logout {
+      margin-left: 16px;
+    }
+
+    .user {
+      color: #14579d;
+    }
+  }
+
+  .menu {
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 32px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 0;
+    }
+
+    .breadContent {
+      height: calc(100vh - 5rem);
+      padding-bottom: 2rem;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    svg:not(:root) {
+      margin-right: 3rem;
+      margin-left: 0.75rem;
+      overflow: hidden;
+      vertical-align: text-bottom;
+    }
+  }
+}

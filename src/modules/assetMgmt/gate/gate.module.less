@@ -1,0 +1,116 @@
+.authModal {
+  :global .ant-tree .ant-tree-treenode-disabled .ant-tree-node-content-wrapper {
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  .basicInfo {
+    display: flex;
+
+    img {
+      width: 80px;
+      height: 80px;
+    }
+
+    .infoList {
+      line-height: 32px;
+      list-style: none;
+    }
+  }
+
+  .gateArea {
+    h4 {
+      padding-left: 6px;
+      border-left: 4px solid #1890ff;
+    }
+
+    .gateSearch {
+      max-height: 300px;
+      padding: 20px;
+      overflow-y: auto;
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+
+      .areaName {
+        line-height: 40px;
+      }
+    }
+  }
+
+  button {
+    margin-top: 10px;
+    margin-left: 400px;
+  }
+}
+
+.areaAuth {
+  display: flex;
+
+  .left,
+  .mid,
+  .right {
+    height: 70vh;
+    // background-color: #f1f3fa;
+  }
+
+  .left {
+    flex: 1;
+    padding: 16px 20px;
+    border-right: 2px solid rgba(33, 149, 242, 0.2);
+
+    .title {
+      visibility: hidden;
+    }
+  }
+
+  .mid {
+    flex: 1;
+    margin-right: 20px;
+    padding: 16px 20px;
+    overflow-y: auto;
+    border-right: 2px solid rgba(33, 149, 242, 0.2);
+
+    .title {
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+
+    .btmBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+
+      .saveAuth {
+        margin-right: 10px;
+      }
+
+      .cancelAuth {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .right {
+    flex: 3;
+
+    .title {
+      margin: 4px 0 -4px 20px;
+    }
+  }
+
+  .title {
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.65);
+    border-left: 5px solid #1890ff;
+  }
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.tabPage {
+  :global .ant-tree .ant-tree-treenode-disabled .ant-tree-node-content-wrapper {
+    color: rgba(0, 0, 0, 0.65);
+  }
+}

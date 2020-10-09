@@ -1,0 +1,393 @@
+.dashboard {
+  position: relative;
+  width: 120rem;
+  height: 67.5rem;
+  overflow-y: hidden;
+  background: #001529;
+
+  .btns {
+    position: absolute;
+    top: 8.375rem;
+    right: 2.5rem;
+    height: 2rem;
+    text-align: right;
+    // margin-top: 2rem;
+    // margin-right: 2.5rem;
+    // margin-bottom: -3rem;
+
+    // .ant-radio-button-wrapper-checked {
+    //   width: 6.25rem;
+    //   height: 2rem;
+    //   background: #001529;
+    //   border: 0.06rem solid #2475fe;
+    //   border-radius: 0.25rem 0 0 0.25rem;
+    // }
+  }
+
+  .dashboardHeader {
+    width: 100%;
+    height: 97/16rem;
+    background: url(../../../assets/image/header.png) no-repeat center / 100% 100%;
+  }
+
+  .nav {
+    position: absolute;
+    top: 4.625rem;
+    left: 2.5rem;
+    width: calc(100% - 5rem);
+    height: 3rem;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 3rem;
+    text-align: center;
+    background: url(../../../assets/image/nav.png) no-repeat center / 100% 100%;
+
+    .left {
+      float: left;
+      margin: auto 5rem;
+    }
+
+    .right {
+      float: right;
+      margin: auto 5rem;
+
+      &:hover {
+        cursor: pointer;
+
+        img {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+
+      img {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  .content1 {
+    position: absolute;
+    top: 11.75rem;
+    left: 2.5rem;
+    display: flex;
+    width: 1841/16rem;
+    height: 16.875rem;
+    // margin: 4.1875rem 2.5rem 0 2.5rem;
+    color: #fff;
+    background: url(../../../assets/image/content1.png) no-repeat center / 100% 100%;
+
+    .chart1 {
+      position: absolute;
+      left: 3.5rem;
+      width: 23.25rem;
+
+      .chartTitle {
+        position: absolute;
+        top: 0.25rem;
+        right: 1rem;
+        font-size: 1rem;
+      }
+
+      .title {
+        margin-left: 3rem;
+        font-size: 14/16rem;
+      }
+
+      .line {
+        width: 80%;
+        height: 1px;
+        margin: 10/16rem auto;
+        background: #2475fe;
+      }
+
+      .triangle {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-right: 0.7rem;
+        margin-bottom: 0.1rem;
+        margin-left: 28/16rem;
+        border-color: transparent transparent #2475fe;
+        border-style: solid;
+        border-width: 0 0.3125rem 0.625rem;
+      }
+    }
+
+    .chart2 {
+      position: absolute;
+      top: 44/16rem;
+      left: 506/16rem;
+      width: 620/16rem;
+      height: 206/16rem;
+    }
+
+    .chart3 {
+      position: absolute;
+      top: 44/16rem;
+      left: 1195/16rem;
+      width: 620/16rem;
+      height: 206/16rem;
+    }
+  }
+
+  .content2 {
+    position: absolute;
+    top: 29.5rem;
+    left: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 1840/16rem;
+    height: 270/16rem;
+    color: #fff;
+
+    .chart1 {
+      // padding: 0.7rem;
+      // padding-top: 5.3rem;
+      position: relative;
+      width: 470/16rem;
+      text-align: center;
+      vertical-align: middle;
+      background: url(../../../assets/image/content2.png) no-repeat center / 100% 100%;
+    }
+
+    .chart2 {
+      position: relative;
+      width: 470/16rem;
+      // padding-top: 2rem;
+      background: url(../../../assets/image/content4.png) no-repeat center / 100% 100%;
+
+      // div:first-child {
+      //   width: 30rem;
+      //   margin-left: 1.2rem;
+      //   padding: 1.2rem;
+      // }
+    }
+
+    .chart3 {
+      position: relative;
+      width: 813/16rem;
+      background: url(../../../assets/image/content3.png) no-repeat center / 100% 100%;
+
+      // div:first-child {
+      //   width: 52rem;
+      //   margin-left: 1.2rem;
+      //   padding-top: 3.5rem;
+      // }
+    }
+  }
+
+  .content3 {
+    position: absolute;
+    top: 48rem;
+    left: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 1840/16rem;
+    height: 16.875rem;
+    color: #fff;
+
+    .chart1 {
+      position: relative;
+      width: 470/16rem;
+      text-align: center;
+      vertical-align: middle;
+      background: url(../../../assets/image/content2.png) no-repeat center / 100% 100%;
+    }
+
+    .chart2 {
+      position: relative;
+      width: 470/16rem;
+      padding-top: 2rem;
+      background: url(../../../assets/image/content4.png) no-repeat center / 100% 100%;
+
+      // div:first-child {
+      //   width: 30rem;
+      //   margin-left: 1.2rem;
+      //   padding: 1.2rem;
+      // }
+    }
+
+    .chart3 {
+      position: relative;
+      width: 813/16rem;
+      background: url(../../../assets/image/content3.png) no-repeat center / 100% 100%;
+
+      // div:first-child {
+      //   width: 52rem;
+      //   margin-left: 1.2rem;
+      //   padding-top: 3.5rem;
+      // }
+    }
+  }
+}
+
+.boardLine {
+  float: right;
+}
+
+.board {
+  display: flex;
+  width: 100%;
+  margin-top: 4.125rem;
+  // margin-left: 3.5rem;
+
+  div {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+
+    p:nth-child(2) {
+      margin-bottom: 0;
+      font-size: 14/16rem;
+    }
+
+    p:nth-child(3) {
+      margin-bottom: 0;
+      font-size: 30/16rem;
+      line-height: 38/16rem;
+    }
+
+    .green {
+      color: #52c41a;
+    }
+  }
+}
+
+.chartContent {
+  position: absolute;
+  top: 80/16rem;
+  left: 57/16rem;
+  display: flex;
+  align-items: center;
+  width: 374/16rem;
+  height: 140/16rem;
+}
+
+.chartBoard {
+  display: flex;
+  width: 100%;
+  // margin-top: 4.125rem;
+  // margin-left: 3.5rem;
+
+  div {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+
+    p:nth-child(2) {
+      margin-bottom: 0;
+      font-size: 14/16rem;
+    }
+
+    p:nth-child(3) {
+      margin-bottom: 0;
+      font-size: 30/16rem;
+      line-height: 38/16rem;
+    }
+
+    .green {
+      color: #52c41a;
+    }
+  }
+}
+
+.chartTitle {
+  position: absolute;
+  top: 0.25rem;
+  right: 4rem;
+  font-size: 1rem;
+}
+
+.middleChartContent {
+  position: absolute;
+  top: 32/16rem;
+  left: 1rem;
+  width: 450/16rem;
+  height: 220/16rem;
+}
+
+.middleChartTitle {
+  position: absolute;
+  top: 0.25rem;
+  right: 2.7rem;
+  font-size: 1rem;
+}
+
+.rightChartContent {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 790/16rem;
+  height: 214/16rem;
+}
+
+.rightChartTitle {
+  position: absolute;
+  top: 0.25rem;
+  right: 24.5rem;
+  font-size: 1rem;
+}
+
+.buttonGroup {
+  position: absolute;
+  top: 0;
+  right: 24/16rem;
+  z-index: 2;
+
+  :global {
+    .ant-radio-button-wrapper {
+      color: #fff;
+      background: transparent;
+      border-top-color: #0a2f62;
+      border-right-color: #0a2f62;
+      border-bottom-color: #0a2f62;
+      border-left-color: #0a2f62;
+    }
+  }
+}
+
+.areaSelect {
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+  z-index: 3;
+  width: 6rem;
+
+  :global {
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+      background-color: #001529;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .ant-select {
+      width: 100%;
+      color: #fff;
+    }
+
+    .ant-select-arrow {
+      color: #fff;
+    }
+  }
+}
+
+:global {
+  .ant-select-dropdown {
+    color: #fff;
+    background: #001529;
+
+    .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+      color: #fff;
+      background-color: #0a2f62;
+    }
+
+    .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+      color: #fff;
+      background-color: #6ea6fe;
+    }
+
+    .ant-select-item {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+/node_modules
+/build
+/dist
+/config
+/src/modules/ad/program/Control
+
+/scripts

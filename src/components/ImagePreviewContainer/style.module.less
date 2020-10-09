@@ -1,0 +1,32 @@
+.container {
+  // position: relative;
+  @keyframes picAnimation {
+    0% {
+      transform: scale(0.2) rotateY(-180deg);
+      opacity: 0;
+    }
+
+    50% {
+      transform: scale(0.6) rotateY(-50deg);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: scale(1) rotateY(0);
+      opacity: 1;
+    }
+  }
+
+  .popContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+    transition: transform 0.3s;
+    animation: picAnimation 0.5s linear;
+  }
+}

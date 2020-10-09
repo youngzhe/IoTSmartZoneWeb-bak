@@ -1,0 +1,9 @@
+/node_modules
+/build
+/dist
+/config
+/src/modules/ad/program/Control
+/src/components/PreviewModal.jsx
+/src/components/ConditionSelector
+
+/scripts

@@ -1,0 +1,32 @@
+// // @import "../../../asset/styles/variables.less";
+@shadow3: 0px 2px 6px 0px rgba(0, 0, 0, 1);
+
+.exception-wrapper {
+  height: 100vh;
+  padding: 1rem;
+  background-color: #262732;
+  box-shadow: @shadow3;
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    > div {
+      text-align: center;
+    }
+
+    .img-exception {
+      width: 20rem;
+    }
+
+    .msg-exception {
+      margin: 2rem 0 0;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+  }
+}

@@ -1,0 +1,401 @@
+@theme: #2895ff;
+@themeActive: #2271e0;
+@themeAlternate: #e04949;
+//@themeActive: #19aa8d;
+@shadow1: 5px 5px 25px 0px rgba(46, 61, 73, 0.1);
+@shadow2: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+@shadow3: 0px 2px 6px 0px rgba(0, 0, 0, 1);
+
+@color: #676a6c;
+@minColor: #737373;
+@borderColor: #e5e5e5;
+@borderColor1: #ddd;
+
+@text: #c3c3c8;
+@minorText: #6c6c6c;
+@optionText: #9c9c9c;
+
+@headerBg: #373847;
+@layoutBg: #282935;
+@cardBg: #262732;
+@basicBg: #16171c;
+
+._dark-input {
+  color: white;
+  background: rgba(30, 33, 44, 0.8);
+  border-color: black;
+}
+
+._dark-disabled-input {
+  color: @text;
+  background: rgba(30, 33, 44, 0.8);
+  border-color: black;
+}
+
+.bg(@color) {
+  background: @color;
+}
+.bgcol(@color) {
+  background: @color;
+}
+.color(@color) {
+  color: @color;
+}
+
+.bgf {
+  background: #fff;
+}
+
+.col333 {
+  color: #333;
+}
+
+.cof {
+  color: #fff;
+}
+
+.col666 {
+  color: #666;
+}
+
+.col999 {
+  color: #999;
+}
+
+.colf53 {
+  color: #f53;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+.abslt(@left,@top) {
+  .abs;
+  top: @top;
+  left: @left;
+}
+.ft(@size) {
+  font-size: @size;
+}
+
+.minh(@height) {
+  min-height: @height;
+}
+.maxh(@height) {
+  max-height: @height;
+}
+
+.verali(@pos) {
+  vertical-align: @pos;
+}
+
+.vertop {
+  .verali(top);
+}
+
+.lh(@height) {
+  line-height: @height;
+}
+
+.fwbold {
+  font-weight: bold;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tc {
+  text-align: center;
+}
+
+.mt(@size) {
+  margin-top: @size;
+}
+.mb(@size) {
+  margin-bottom: @size;
+}
+.ml(@size) {
+  margin-left: @size;
+}
+.mr(@size) {
+  margin-right: @size;
+}
+
+.pt(@size) {
+  padding-top: @size;
+}
+.pb(@size) {
+  padding-bottom: @size;
+}
+.pl(@size) {
+  padding-left: @size;
+}
+.pr(@size) {
+  padding-right: @size;
+}
+
+@images: '../images';
+.w(@width) {
+  width: @width;
+}
+.h(@height) {
+  height: @height;
+}
+.boradius(@size) {
+  border-radius: @size;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.border-none {
+  border: none;
+}
+.border(@color) {
+  border: 1px solid @color;
+}
+.bg-img(@img,@pos) {
+  background: url('@{images}/@{img}') no-repeat @pos;
+}
+.bg-color-img(@color,@img,@pos) {
+  background: @color url('@{images}/@{img}') no-repeat @pos;
+}
+.bg-size(@size) {
+  background-size: @size;
+}
+
+.verMid {
+  vertical-align: middle;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.pl15 {
+  padding-left: 15px;
+}
+
+.pl20 {
+  padding-left: 20px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.pr15 {
+  padding-right: 15px;
+}
+
+.pr20 {
+  padding-right: 20px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pt15 {
+  padding-top: 15px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pb10 {
+  padding-bottom: 10px;
+}
+
+.pb15 {
+  padding-bottom: 15px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.fontw {
+  font-weight: bold;
+}
+
+a,
+input {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  outline: none;
+}
+//input[type=button]{
+//  outline: none;
+//  &:focus{outline: none; border: none;}
+//}
+
+.curpointer {
+  cursor: pointer;
+}
+
+.Tc {
+  text-align: center;
+}
+
+.Tr {
+  text-align: right;
+}
+
+.Tl {
+  text-align: left;
+}
+
+.pwrap3 {
+  padding: 0 30px;
+}
+
+.basicwidth {
+  .w(1260px);
+  margin: 0 auto;
+}
+
+.ft12 {
+  .ft(12px);
+}
+
+.ft14 {
+  .ft(14px);
+}
+
+.ft16 {
+  .ft(16px);
+}
+
+.ft18 {
+  .ft(18px);
+}
+
+.ft20 {
+  .ft(20px);
+}
+
+.ft22 {
+  .ft(22px);
+}
+
+.flex {
+  display: flex;
+}
+
+.w50 {
+  .w(50%);
+}
+
+//input::-webkit-outer-spin-button,
+//input::-webkit-inner-spin-button {
+//  -webkit-appearance: none;
+//  margin: 0;
+//}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.textEllipsis {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+//预编译样式及公式 结束
+.ellipsis(@maxWidth) {
+  max-width: @maxWidth;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 清除浮动代码 */
+.clearfix::after {
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: '';
+}
+
+.clearfix {
+  zoom: 1;
+}

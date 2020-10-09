@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>退出</title>
+    <desc>Created with Sketch.</desc>
+    <g id="组件" stroke="#5587b9" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="顶部控件" transform="translate(-27.000000, -17.000000)">
+            <g id="Navigation_top">
+                <g>
+                    <g id="退出" transform="translate(24.000000, 12.000000)">
+                        <path d="M10.7142685,8.99999106 L11.9999899,8.99999106 L11.9999899,6.3333234 L19.7142785,6.3333234 L19.7142785,17.6666766 L11.9974748,17.6666766 L11.9999698,14.9999881 L10.7142685,14.9999881 L10.7142685,19 L21,19 L21,5.00780405 L10.7142685,5 L10.7142685,8.99999106 Z M8.78569632,7.00000596 L8.78569632,10.3333145 L15.8571342,10.3333145 L15.8571342,13.6666647 L8.78569632,13.6666647 L8.78569632,16.9999732 L3,11.6666587 L8.78569632,7.00000596 Z" id="形状" fill="#5587b9" fill-rule="nonzero"></path>
+                        <rect id="矩形" stroke="#979797" opacity="0" x="0.5" y="0.5" width="23" height="23"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+.searchBar {
+  display: flex;
+
+  .searchForm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: 20px;
+
+    :global {
+      .ant-form-item {
+        width: 30% !important;
+        min-width: 240px !important;
+      }
+    }
+  }
+
+  .searchButton {
+    flex: 1;
+    text-align: right;
+
+    button {
+      margin-left: 20px;
+    }
+  }
+}

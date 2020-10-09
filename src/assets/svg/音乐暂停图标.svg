@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>音乐暂停图标</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-41.000000, -75.000000)" fill="#DCE6F0" fill-rule="nonzero">
+            <g id="音乐暂停图标" transform="translate(41.000000, 75.000000)">
+                <g id="播放-(默认)">
+                    <path d="M14,7 C14,10.864 10.864,14 7,14 C3.136,14 0,10.864 0,7 C0,3.136 3.136,0 7,0 C10.864,0 14,3.136 14,7 Z M5.936,4.655 C5.936,4.305 5.656,4.025 5.306,4.025 C4.956,4.025 4.676,4.305 4.676,4.655 L4.676,9.345 C4.676,9.695 4.956,9.975 5.306,9.975 C5.656,9.975 5.936,9.695 5.936,9.345 L5.936,4.655 Z M9.317,4.655 C9.317,4.305 9.037,4.025 8.687,4.025 C8.337,4.025 8.057,4.305 8.057,4.655 L8.057,9.345 C8.057,9.695 8.337,9.975 8.687,9.975 C9.037,9.975 9.317,9.695 9.317,9.345 L9.317,4.655 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

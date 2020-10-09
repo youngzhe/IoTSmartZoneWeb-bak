@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="11px" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Clip 2 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M63.0053383,6.57692284 C62.988936,6.61027159 63.0125143,6.64792341 63.0463441,6.64684765 L66.6927821,6.56401364 L65.9577537,5.22791194 C67.9239803,4.03596292 70.395603,4.66636195 71.4781554,6.63501422 C72.5617328,8.60366649 71.845157,11.1639902 69.8799555,12.3559392 C68.0644251,13.4564481 65.8203843,13.001399 64.6342925,11.3759162 L63.7362661,11.9191781 C65.1981218,14.0362861 68.0623748,14.6451698 70.3699744,13.2466737 C72.8272452,11.758889 73.7221961,8.55633277 72.3690057,6.09497955 C71.0147902,3.6347021 67.9250055,2.84616542 65.4677347,4.3361017 L64.7327063,3 L63.0053383,6.57692284 Z" id="path-1"></path>
+    </defs>
+    <g id="组件" stroke="#5587b9" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g id="顶部控件" transform="translate(-223.000000, -18.000000)">
+            <g id="撤销-恢复">
+                <g transform="translate(160.000000, 15.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Clip-2-Copy" fill="#5587b9" transform="translate(68.000000, 8.500000) scale(-1, 1) translate(-68.000000, -8.500000) " xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

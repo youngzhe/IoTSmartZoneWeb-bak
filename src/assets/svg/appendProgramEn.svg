@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="182px" viewBox="0 0 135 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>分组 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="1.68778281 135.745856 132.375566 135.745856 132.375566 179.98895 1.68778281 179.98895"></polygon>
+        <rect id="path-3" x="0" y="0" width="134.687783" height="182"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="134.687783" height="182" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="计划管理主页-5" transform="translate(-582.000000, -454.000000)">
+            <g id="分组-9" transform="translate(582.000000, 248.000000)">
+                <g id="分组-11" transform="translate(0.000000, 206.000000)">
+                    <g id="矩形" transform="translate(0.312217, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use stroke="#373847" mask="url(#mask-4)" stroke-width="2" stroke-dasharray="5" xlink:href="#path-3"></use>
+                        <g id="为空" transform="translate(43.687783, 44.243094)">
+                            <path d="M39.9360163,37.7182636 L37.5121246,37.7182636 L37.5121246,40.1551135 L36.574832,40.1551135 L36.574832,37.7182636 L34.1509402,37.7182636 L34.1509402,36.7780131 L36.574832,36.7780131 L36.574832,34.3391103 L37.5121246,34.3391103 L37.5121246,36.7780131 L39.9360163,36.7780131 L39.9360163,37.7182636 Z M37.0424572,31.4773 C33.8732239,31.4773 31.3043478,34.0599093 31.3043478,37.2481384 C31.3043478,40.4343145 33.8732239,43.0189767 37.0424572,43.0189767 C40.2137327,43.0189767 42.7826087,40.4343145 42.7826087,37.2481384 C42.7826087,34.0599093 40.2137327,31.4773 37.0424572,31.4773 Z" id="Fill-5" fill-opacity="0.3" fill="#73747E"></path>
+                            <path d="M37.5652174,12.59092 L25.3038742,12.59092 C25.1612764,12.59092 25.0434783,12.4756525 25.0434783,12.3336264 L25.0434783,0 L37.5652174,12.59092 Z" id="Fill-1" fill-opacity="0.3" fill="#73747E"></path>
+                            <path d="M28.3335273,37.7507956 C28.3335273,33.1941832 31.988694,29.5041657 36.5217391,29.4262919 L36.5217391,15.1414516 L23.3216394,15.1414516 C22.2562141,15.1414516 21.3923019,14.2768533 21.3923019,13.2085853 L21.3923019,0 L8.52340178,0 C7.27442015,0 6.26086957,1.01435545 6.26086957,2.2643289 L6.26086957,35.5064344 C6.26086957,36.7584046 7.27442015,37.77276 8.52340178,37.77276 L28.3355225,37.77276 C28.3355225,37.764773 28.3335273,37.7587827 28.3335273,37.7507956" id="Fill-3" fill-opacity="0.3" fill="#73747E"></path>
+                            <rect id="矩形" stroke="#979797" opacity="0" x="0.5" y="0.5" width="47" height="47.2651934"></rect>
+                        </g>
+                        <path d="M1.68778281,135.975187 L133.687783,135.975187" id="路径-2" stroke="#373847" stroke-width="2" stroke-dasharray="5"></path>
+                        <text id="点击添加节目" opacity="0.3" font-family="PingFangSC-Regular, PingFang SC" font-size="8" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="42.6877828" y="163.872928">add a Program.</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
